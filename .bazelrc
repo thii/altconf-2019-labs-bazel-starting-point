@@ -12,3 +12,6 @@ build --show_timestamps
 
 # Bypass a Tulsi error
 build --incompatible_depset_union=false
+
+# Uncomment this to enable remote caching
+# build --remote_cache=http://localhost:8080
