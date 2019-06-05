@@ -1,0 +1,14 @@
+# Set platform type
+build --apple_platform_type=ios
+
+# Print the full command line for commands that failed
+build --verbose_failures
+
+# Deployment target
+build --ios_minimum_os=10.0
+
+# Show timestamps in build outputs
+build --show_timestamps
+
+# Bypass a Tulsi error
+build --incompatible_depset_union=false

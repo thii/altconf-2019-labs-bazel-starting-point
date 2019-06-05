@@ -1,0 +1,7 @@
+*.swp
+*.tulsiconf-user
+*.xcodeproj
+.DS_Store
+bazel-*
+tulsi-*
+tools/Tulsi.app
